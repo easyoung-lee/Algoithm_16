@@ -14,12 +14,11 @@ public class BOJ_9663_이영준 {
 		n = Integer.parseInt(bf.readLine());
 //		graph = new boolean[n][n];
 		graph = new int[n];
-		
+//		result = 0;		
 //		Combination(num-1, num-2, num-1, num-1, num);
 		Combination(0);
 		
 		System.out.println(result);
-		result = 0;
 	}
 
 
@@ -51,23 +50,24 @@ public class BOJ_9663_이영준 {
 			return;
 		}
 		for (int i = 0; i < n; i++) {
-			boolean check = false;
+			boolean check = true;
 			graph[cnt] = i;
 			if(cnt == 0 ) {
 				Combination(cnt+1);		
 			}else {
 				for (int j = 0; j < cnt; j++) {
-					if((graph[cnt] != graph[j]) && (Math.abs(graph[cnt]-graph[j]) != (cnt-j))) {
-						check = true;
+					if(graph[cnt] == graph[j]){
+						check = false;
+						break;						
+					}else if(Math.abs(graph[cnt]-graph[j]) == Math.abs(cnt-j)) {
+						check = false;
 						break;
 					}
 				}				
 				if(check) {
 					Combination(cnt+1);
-//					check = false;
 				}
 			}
 		}
-		
 	}
 }
