@@ -26,6 +26,6 @@
 | 날짜                          | 토픽                       | 문제                                                         |
 | ----------------------------- | -------------------------- | ------------------------------------------------------------ |
 | 8/4 ~ 8/9<br />(리뷰: 8/10) | Implementation (구현) / Brute Force(완전탐색)   | - <a href="https://www.acmicpc.net/problem/9663">BOJ 9663 N-Queen</a><br />- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12953">PRG Lv2: N개의 최소공배수</a><br />|
-| 8/11 ~ 8/16<br />(리뷰: 8/17) | Implementation (구현)   | - <a href="https://www.acmicpc.net/problem/1525">BOJ 1525 퍼즐</a><br />- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12911">PRG Lv2: 다음 큰 숫자</a><br />|
+| 8/11 ~ 8/16<br />(리뷰: 8/17) | Implementation (구현) / BFS(너비우선탐색)   | - <a href="https://www.acmicpc.net/problem/1525">BOJ 1525 퍼즐</a><br />- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12911">PRG Lv2: 다음 큰 숫자</a><br />|
 
 
