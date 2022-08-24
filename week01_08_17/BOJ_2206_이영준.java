@@ -80,7 +80,7 @@ public class BOJ_2206_이영준_시간초과 {
 						smash = false;
 					}
 				}
-			}
+			} 
 		}
 	}
 }
