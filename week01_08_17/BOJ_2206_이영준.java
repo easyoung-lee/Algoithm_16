@@ -26,7 +26,7 @@ public class BOJ_2206_이영준_시간초과 {
 	static boolean smash, visited[][];
 	static int dir[][] = { { 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } }; // 우하좌상
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException { 
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine(), " ");
 		n = Integer.parseInt(st.nextToken());
