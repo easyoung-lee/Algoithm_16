@@ -28,5 +28,6 @@
 | 8/4 ~ 8/9<br />(리뷰: 8/10) | Implementation (구현) / Brute Force(완전탐색)   | - <a href="https://www.acmicpc.net/problem/9663">BOJ 9663 N-Queen</a><br />- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12953">PRG Lv2: N개의 최소공배수</a><br />|
 | 8/11 ~ 8/16<br />(리뷰: 8/17) | Implementation (구현) / BFS(너비우선탐색)   | - <a href="https://www.acmicpc.net/problem/2206">BOJ 2206 벽 부수고 이동하기</a><br />- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/12911">PRG Lv2: 다음 큰 숫자</a><br />|
 | 9/1 ~ 9/6<br />(리뷰: 9/7) | Implementation (구현)   | - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92341">PRG Lv2: 주차 요금 계산</a>|
+| 9/8 ~ 9/13<br />(리뷰: 9/14) | Implementation (구현)   | - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92344">PRG Lv3: 파괴되지 않은 </a>|
 
 
