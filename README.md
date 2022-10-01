@@ -30,6 +30,6 @@
 | 9/1 ~ 9/6<br />(리뷰: 9/7) | Implementation (구현)   | - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92341">PRG Lv2: 주차 요금 계산</a>|
 | 9/8 ~ 9/13<br />(리뷰: 9/14) | Implementation (구현)   | - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92344">PRG Lv3: 파괴되지 않은 건물 </a>|
 | 9/15 ~ 9/20<br />(리뷰: 9/21) | Implementation (구현)   | - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92343">PRG Lv3: 양과 늑대 </a><br />- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92345">PRG Lv3: 사라지는 발판 </a>|
-| 9/29 ~ 10/4<br />(리뷰: 10/5) | DP | - <a href="https://www.acmicpc.net/problem/1520">BOJ 1520 내리막 길 </a><br />- <a href="https://www.acmicpc.net/problem/2225">BOJ 2225 합분해 </a>|
+| 9/29 ~ 10/4<br />(리뷰: 10/5) | Dynamic Programming (다이나믹 프로그래밍) | - <a href="https://www.acmicpc.net/problem/1520">BOJ 1520 내리막 길 </a><br />- <a href="https://www.acmicpc.net/problem/2225">BOJ 2225 합분해 </a>|
 
 
