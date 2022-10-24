@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
 import java.util.StringTokenizer;
 
 public class BOJ_2225_홍윤식 {
@@ -11,9 +12,16 @@ public class BOJ_2225_홍윤식 {
         int N = Integer.parseInt(stz.nextToken());
         int K = Integer.parseInt(stz.nextToken());
 
-        6
-        1   :   6
-        2   :   0,6 6,0 1,5 5,1 2,4 4,2 3,3
-        3   :   0,0,6 0,6,0 6,0,0 0,1,5 1,0,5 1,5,0 0,5,1 5,0,1 5,1,0 2  
+        int[][] memo = new int[K + 1][N + 1];
+        for (int i = 0; i <= K; i++) {
+            memo[i][0] = 1;
+        }
+        for (int i = 1; i <= K; i++) {
+            for (int j = 1; j <= N; j++) {
+                memo[i][j] = (memo[i][j - 1] + memo[i - 1][j]) % 1000000000;
+            }
+        }
+
+        System.out.println(memo[K][N]);
     }
 }
