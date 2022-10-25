@@ -27,6 +27,8 @@ public class BOJ_2294_홍윤식 {
             coins[i] = Integer.parseInt(br.readLine());
             for (int j = coins[i]; j <= k; j++) {
                 dp[j][0] += dp[j - coins[i]][0];
+                //기존에 동전을 사용하는 가짓수를 구하는 과정에서 사용하는 동전의 갯수를 위한 별도의 공간 확보
+                //각 공간을 최대값으로 초기화 한뒤 매 회차 마다 가장 적게 사용하는 동전의 수로 갱신
                 dp[j][1] = Math.min(dp[j][1], dp[j - coins[i]][1] + 1);
 
             }
