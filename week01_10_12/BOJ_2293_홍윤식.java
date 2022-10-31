@@ -17,12 +17,16 @@ public class BOJ_2293_홍윤식 {
         k = Integer.parseInt(stz.nextToken());
         coins = new int[n];
         check = new boolean[n];
+        //메모를 위한 배열 생성
         int[] dp = new int[k + 1];
+        //0원을 만드는 경우의 수는 항상 1
         dp[0] = 1;
         for (int i = 0; i < n; i++) {
             coins[i] = Integer.parseInt(br.readLine());
             for (int j = coins[i]; j <= k; j++) {
-                dp[j] += dp[j - coins[i]];
+                //i번 째 코인으로 j의 가치를 만드는 경우의 수는
+            	// (j-i)만큼을 만드는 경우의 수에 i번째 코인만 더하면 되므로 dp[j-coins[i]]만큼 dp에 더해주면 된다. 
+            	dp[j] += dp[j - coins[i]];
 
             }
             
