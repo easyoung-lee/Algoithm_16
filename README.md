@@ -32,7 +32,7 @@
 | 9/15 ~ 9/20<br />(리뷰: 9/21) | Implementation (구현)   | - <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92343">PRG Lv3: 양과 늑대 </a><br />- <a href="https://school.programmers.co.kr/learn/courses/30/lessons/92345">PRG Lv3: 사라지는 발판 </a>|
 | 9/29 ~ 10/4<br />(리뷰: 10/5) | Dynamic Programming (다이나믹 프로그래밍) | - <a href="https://www.acmicpc.net/problem/1520">BOJ 1520 내리막 길 </a><br />- <a href="https://www.acmicpc.net/problem/2225">BOJ 2225 합분해 </a>|
 | 10/6 ~ 10/11<br />(리뷰: 10/12) | Dynamic Programming (다이나믹 프로그래밍) | - <a href="https://www.acmicpc.net/problem/2293">BOJ 2293 동전1 </a><br />- <a href="https://www.acmicpc.net/problem/2294">BOJ 2294 동전2 </a><br /> - <a href="https://www.acmicpc.net/problem/2133">BOJ 2133 타일 채우기 </a>|
-| 10/13 ~ 10/18<br />(리뷰: 10/19) | BFS/DFS | - <a href="https://www.acmicpc.net/problem/2293">BOJ 2293 동전1 </a><br />- <a href="https://www.acmicpc.net/problem/2294">BOJ 2294 동전2 </a><br /> - <a href="https://www.acmicpc.net/problem/2133">BOJ 2133 타일 채우기 </a>|
+| 10/13 ~ 10/18<br />(리뷰: 10/19) | BFS/DFS | - <a href="https://www.acmicpc.net/problem/13460">BOJ 13460 구슬 탈출2 </a>|
 | 10/26 ~ 10/31<br />(리뷰: 11/1) | MST(최소 스패닝 트리) | - <a href="https://www.acmicpc.net/problem/4386">BOJ 4386 별자리 만들기 </a><br/>- <a href="https://www.acmicpc.net/problem/2887">BOJ 2887 행성 터널 </a>|
 | 11/2 ~ 11/7<br />(리뷰: 11/8) | All About.. | - <a href="https://www.acmicpc.net/problem/14939">BOJ 14939 불 끄기 </a><br/>- <a href="https://www.acmicpc.net/problem/16566">BOJ 16566 카드게임 </a>|
 
