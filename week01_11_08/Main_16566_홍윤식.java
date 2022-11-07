@@ -1,5 +1,4 @@
 
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -10,6 +9,7 @@ import java.util.StringTokenizer;
 public class Main_16566_홍윤식 {
 	static int[] redCards;
 	static int[] parents;
+	static int M;
 
 	static public void init(int n) {
 		parents = new int[n + 1];
@@ -33,36 +33,42 @@ public class Main_16566_홍윤식 {
 		return true;
 	}
 
+	static public int binarySearch(int target) {
+		int s = 0;
+		int e = M;
+		while (s < e) {
+			int mid = (s + e) / 2;
+			if (redCards[mid] > target)
+				e = mid;
+			else
+				s = mid + 1;
+		}
+		return e;
+	}
+
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer stz = new StringTokenizer(br.readLine());
 		int N = Integer.parseInt(stz.nextToken());
-		int M = Integer.parseInt(stz.nextToken());
+		M = Integer.parseInt(stz.nextToken());
 		int K = Integer.parseInt(stz.nextToken());
 		redCards = new int[M];
-		init(N);
+		init(M);
 		stz = new StringTokenizer(br.readLine());
 		for (int i = 0; i < M; i++) {
 			redCards[i] = Integer.parseInt(stz.nextToken());
 		}
 		Arrays.sort(redCards);
+
 		stz = new StringTokenizer(br.readLine());
 		for (int i = 0; i < K; i++) {
 			int play = Integer.parseInt(stz.nextToken());
-			if (find(play) == play) {
-				for (int j = 0, end = redCards.length; j < end; j++) {
-					if (redCards[j] > play) {
-						union(j, play);
-						System.out.println(redCards[j]);
-						break;
-					}
-				}
+			int j = binarySearch(play);
 
-			} else {
-				int j = find(play);
-				union(j + 1, play);
-				System.out.println(redCards[j + 1]);
-			}
+			System.out.println(redCards[find(j)]);
+			int p = find(j);
+			union(p + 1, p);
+
 		}
 
 	}
