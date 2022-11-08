@@ -35,4 +35,5 @@
 | 10/13 ~ 10/18<br />(리뷰: 10/19) | BFS/DFS | - <a href="https://www.acmicpc.net/problem/13460">BOJ 13460 구슬 탈출2 </a>|
 | 10/26 ~ 10/31<br />(리뷰: 11/1) | MST(최소 스패닝 트리) | - <a href="https://www.acmicpc.net/problem/4386">BOJ 4386 별자리 만들기 </a><br/>- <a href="https://www.acmicpc.net/problem/2887">BOJ 2887 행성 터널 </a>|
 | 11/2 ~ 11/7<br />(리뷰: 11/8) | All About.. | - <a href="https://www.acmicpc.net/problem/14939">BOJ 14939 불 끄기 </a><br/>- <a href="https://www.acmicpc.net/problem/16566">BOJ 16566 카드게임 </a>|
+| 11/9 ~ 11/14<br />(리뷰: 11/15) | All About.. | - <a href="https://www.acmicpc.net/problem/14003">BOJ 14003 가장 긴 증가하는 부분 수열 5 </a><br/>- <a href="https://www.acmicpc.net/problem/1202">BOJ 1202 보석도둑 </a>|
 
