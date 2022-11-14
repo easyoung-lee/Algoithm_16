@@ -33,23 +33,29 @@ public class BOJ_1202_홍윤식 {
         long ans = 0;
         N = Integer.parseInt(stz.nextToken());
         K = Integer.parseInt(stz.nextToken());
-        Jewel[] jewels = new Jewel[N];
+        PriorityQueue<Jewel> Jewels = new PriorityQueue<>();
         for (int i = 0; i < N; i++) {
             stz = new StringTokenizer(br.readLine());
             int M = Integer.parseInt(stz.nextToken());
             int V = Integer.parseInt(stz.nextToken());
-            jewels[i] = new Jewel(M, V);
+            Jewels.add(new Jewel(M, V));
         }
-        Arrays.sort(jewels);
+
         int[] bags = new int[K];
         for (int i = 0; i < K; i++) {
             bags[i] = Integer.parseInt(br.readLine());
         }
         Arrays.sort(bags);
         PriorityQueue<Integer> pQueue = new PriorityQueue<>(Collections.reverseOrder());
-        for (int i = 0, j = 0; i < K; i++) {
-            while (j < N && jewels[j].M <= bags[i]) {
-                pQueue.offer(jewels[j++].V);
+        for (int i = 0; i < K; i++) {
+            for (int j = 0, end = Jewels.size(); j < end; j++) {
+                Jewel jewel = Jewels.poll();
+                if (jewel.M <= bags[i]) {
+                    pQueue.offer(jewel.V);
+                } else {
+                    Jewels.offer(jewel);
+                    break;
+                }
             }
             if (!pQueue.isEmpty()) {
                 ans += pQueue.poll();
